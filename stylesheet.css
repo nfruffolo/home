@@ -20,12 +20,12 @@
 	margin:auto;
 	text-align: center;
 }
-body {
-  background-image:url(https://www.youtube.com/embed/videoseries?si=89y75CV-xEwAmZCk&amp;list=PL4JYWNTtoAgIPMDw-RniRR8KKCJGtoCxL);
-  background-repeat: no-repeat;
-  background-position: center, center;
-  background-attachment: fixed;
-  background-size: cover;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 header {
   color: black;
